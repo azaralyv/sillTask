@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&family=Roboto&display=swap');
+*{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0px;
+    width: 100%;
+}
+li,a,button{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1A3236;
+    text-decoration-line: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_links li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 32px;
+}
+.logo{
+    padding-left: 40px;
+}
+.h_button button{
+    background-color: #B8E4DA;
+    border: none;
+    border-radius: 8px;
+    width: 82px;
+    height: 41px;
+    padding-right: 4px;
+    margin-right: 12px;
+
+}
+.h_button .login{
+    padding-right: 28px;
+}
+/* Hero section */
+.herosection{
+    display: flex;
+    margin-left: 139px;
+    margin-right: 28px;
+}
+.hero_p p{
+    font-weight: 700;
+    font-size: 18px;
+}
+.herocontent h1{
+    font-weight: 700;
+    font-size: 64px;
+    position: relative;
+}
+.herocontent img {
+    position: absolute;
+    left: 373px;
+    top: 186px;
+    z-index: -1;
+  }
+.herocontent h2{
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero_buttons{
+    margin-top: 48px;
+}
+.signhero button{
+    background-color: #20484F;
+    border: none;
+    border-radius: 8px;
+    width: 136px;
+    height: 58px;
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+}
+.learnhero button{
+    border: solid 1px #DCE0E1;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    width: 168px;
+    height: 58px;
+
+}
+/* Feature Blocks */
+.FeatureCards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 122px;
+    margin-right: 160px;
+    margin-top: 82px;
+    text-align: center;
+    position: relative;
+}
+.FeatureBlocks_h1 h1{
+    text-align: center;
+}
+.vector img{
+    position: absolute;
+    left: 283px;
+    top: 67px;
+    z-index: -1;
+}
+.FeatureCards h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.FeatureCards p{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Metrics */
+.Metricsblock{
+    margin-left:122px;
+    margin-right: 120px;
+}
+.Metricshead h1{
+    font-size:32px;
+    font-weight: 700;
+}
+.Metricshead p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.MetricsCard{
+    display: flex;
+    justify-content:space-between;
+    margin-right: -31px;
+
+}
+.mCard1{
+    width: 285px;
+    height: 329px;
+    background-color: #20484F;
+    color: white;
+    border-radius: 24px;
+}
+.mCard2{
+    width: 285px;
+    height: 329px;
+    background-color: #20484F;
+    color: white;
+    border-radius: 24px;
+}
+.mCard3{
+    width: 285px;
+    height: 329px;
+    background-color: #20484F;
+    color: white;
+    border-radius: 24px;
+}
+.mCard4{
+    width: 285px;
+    height: 329px;
+    background-color: #20484F;
+    color: white;
+    border-radius: 24px;
+}
+.MetricsCard h2{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.MetricsCard h3{
+    font-size: 18px;
+    margin-top: 133px;
+    margin-left: 35px
+}
+.MetricsCard p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 12px;
+    margin-right: 35px;
+    
+}
+/* Testimonials */
+.TestimonialsBackround{
+    width: 100%;
+    height: 550px;
+    background-image: url("./img/TestimonialsBackround.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:50px
+}
+/* CTAs */
+.CTAs{
+    background-color: #072125;
+    width: 100%;
+    height: 405px;
+    margin-top: -34px;
+    display: flex;
+}
+.headCTas h1{
+    color: white;
+    padding-left: 120px;
+    padding-top: 102px;
+    font-size:50px;
+    font-weight: 700;
+
+}
+.clickCTas span{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.clickCTas{
+    display: flex;
+    justify-content: space-between;
+}
